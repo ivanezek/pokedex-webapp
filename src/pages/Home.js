@@ -53,7 +53,7 @@ export const Home = () => {
           <input 
           type="submit" 
           className='app-btn'
-          value='Buscar'
+          value='Search'
           />
       </form>
       <button className="sidebar-toggle-button-open" onClick={openSidebar}>
