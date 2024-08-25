@@ -38,7 +38,7 @@ export const Home = () => {
   return (
     <div className='home-container app-body'>
     <div id="form-container" className='container'>
-      <h2>¿Estás buscando algún Pokemón específico?</h2>
+      <h2>¿Are you looking for a specific Pokemón?</h2>
       <form onSubmit={onSubmitSearch}>
         <input
                 type='search'
@@ -46,7 +46,7 @@ export const Home = () => {
                 id=''
                 value={valueSearch}
                 onChange={onChange}
-                placeholder='Buscar nombre de Pokemón'
+                placeholder='Search Pokemon name'
                 className='input-search'
                 required
           />
@@ -72,7 +72,7 @@ export const Home = () => {
       <PokemonList />
       <div className="load-container container">
         <button className='app-btn' onClick={loadMore}>
-          Cargar más
+          Load more
         </button>
       </div>
       </div>

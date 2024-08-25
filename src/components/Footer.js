@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
   return (
     <footer className='container'>
-            <span>Desarrollado por Iván Rosales</span>
+            <span>Designed and developed by Iván Rosales</span>
     </footer>
   )
 }

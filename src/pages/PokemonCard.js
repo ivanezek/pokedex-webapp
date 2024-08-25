@@ -67,20 +67,20 @@ export const PokemonCard = () => {
 		</div>
 		<div className='container-info-pokemon'>
 				<div className='info-pokemon'>
-					<h2>Información</h2>
+					<h2>Information</h2>
 					<div className="info-container">
 						<div className='group-info'>
-							<p> <GiBodyHeight/> Altura</p>
-							<span>{pokemon.height}M</span>
+							<p> <GiBodyHeight/> Height</p>
+							<span>{pokemon.height} Meters</span>
 						</div>
 						<div className='group-info'>
-							<p> <GiWeight/> Peso</p>
-							<span>{pokemon.weight}KG</span>
+							<p> <GiWeight/> Weight</p>
+							<span>{pokemon.weight} Kg</span>
 						</div>
 					</div>
 				</div>
 				<div className='container-stats'>
-			<h2>Estadísticas</h2>
+			<h2>Stats</h2>
 			<div className='stats'>
 			<div className='stat-group'>
 				<h3><BsFillHeartFill />HP </h3>

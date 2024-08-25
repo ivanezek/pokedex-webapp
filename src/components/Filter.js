@@ -9,7 +9,7 @@ export const Filter = () => {
   return (
     <div className='container-filters'>
       <div className='filter-type-list'>
-		<h2>Filtrar por tipos</h2>
+		<h2>Filter by types</h2>
         <div className='group-type'>
 					<input
 						type='checkbox'
@@ -17,7 +17,7 @@ export const Filter = () => {
 						name='grass'
 						id='grass'
 					/>
-					<label htmlFor='grass'>Planta</label>
+					<label htmlFor='grass'>Grass</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -26,7 +26,7 @@ export const Filter = () => {
 						name='fire'
 						id='fire'
 					/>
-					<label htmlFor='fire'>Fuego</label>
+					<label htmlFor='fire'>Fire</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -35,7 +35,7 @@ export const Filter = () => {
 						name='bug'
 						id='bug'
 					/>
-					<label htmlFor='bug'>Bicho</label>
+					<label htmlFor='bug'>Bug</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -44,7 +44,7 @@ export const Filter = () => {
 						name='fairy'
 						id='fairy'
 					/>
-					<label htmlFor='fairy'>Hada</label>
+					<label htmlFor='fairy'>Fairy</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -53,7 +53,7 @@ export const Filter = () => {
 						name='dragon'
 						id='dragon'
 					/>
-					<label htmlFor='dragon'>Dragón</label>
+					<label htmlFor='dragon'>Dragon</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -62,7 +62,7 @@ export const Filter = () => {
 						name='shadow'
 						id='shadow'
 					/>
-					<label htmlFor='shadow'>Fantasma</label>
+					<label htmlFor='shadow'>Shadow</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -71,7 +71,7 @@ export const Filter = () => {
 						name='ground'
 						id='ground'
 					/>
-					<label htmlFor='ground'>Tierra</label>
+					<label htmlFor='ground'>Ground</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -89,7 +89,7 @@ export const Filter = () => {
 						name='psychic'
 						id='psychic'
 					/>
-					<label htmlFor='psychic'>Psíquico</label>
+					<label htmlFor='psychic'>Psychic</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -98,7 +98,7 @@ export const Filter = () => {
 						name='steel'
 						id='steel'
 					/>
-					<label htmlFor='steel'>Acero</label>
+					<label htmlFor='steel'>Steel</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -107,7 +107,7 @@ export const Filter = () => {
 						name='dark'
 						id='dark'
 					/>
-					<label htmlFor='dark'>Siniestro</label>
+					<label htmlFor='dark'>Dark</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -116,7 +116,7 @@ export const Filter = () => {
 						name='electric'
 						id='electric'
 					/>
-					<label htmlFor='electric'>Eléctrico</label>
+					<label htmlFor='electric'>Electric</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -125,7 +125,7 @@ export const Filter = () => {
 						name='fighting'
 						id='fighting'
 					/>
-					<label htmlFor='fighting'>Lucha</label>
+					<label htmlFor='fighting'>Fighting</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -134,7 +134,7 @@ export const Filter = () => {
 						name='flying'
 						id='flying'
 					/>
-					<label htmlFor='flying'>Volador</label>
+					<label htmlFor='flying'>Flying</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -143,7 +143,7 @@ export const Filter = () => {
 						name='ice'
 						id='ice'
 					/>
-					<label htmlFor='ice'>Hielo</label>
+					<label htmlFor='ice'>Ice</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -152,7 +152,7 @@ export const Filter = () => {
 						name='poison'
 						id='poison'
 					/>
-					<label htmlFor='poison'>Veneno</label>
+					<label htmlFor='poison'>Poison</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -161,7 +161,7 @@ export const Filter = () => {
 						name='rock'
 						id='rock'
 					/>
-					<label htmlFor='rock'>Roca</label>
+					<label htmlFor='rock'>Rock</label>
 				</div>
 				<div className='group-type'>
 					<input
@@ -170,7 +170,7 @@ export const Filter = () => {
 						name='water'
 						id='water'
 					/>
-					<label htmlFor='water'>Agua</label>
+					<label htmlFor='water'>Water</label>
 				</div>
 
       </div>
